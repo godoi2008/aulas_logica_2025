@@ -1,0 +1,11 @@
+# Arquivos temporarios
+*.temporarios
+
+# Arquivo de compilação
+*.exe
+
+#diretorio de dependencias
+node_
+
+#alterando
+.gitigno
