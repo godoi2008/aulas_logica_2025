@@ -11,7 +11,7 @@ for(let i = 0; i <=5; i++){
     entrada = console.log(Number(prompt("digite um numero: ")))
 if(entrada % 2 == 0){
     somapar += entrada;
-    qtdpar++
+    newFunction();
 }
 else{
     somai += entrada
@@ -21,3 +21,7 @@ else{
 
 console.log(`a soma de ${qtdpar} é ${somapar}`)
 console.log(`a soma de ${qtdimpar} é ${somaimpar}`)
+
+function newFunction() {
+    qtdpar++;
+}
